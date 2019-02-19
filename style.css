@@ -1,0 +1,325 @@
+#nao{
+background-color:black;
+width:64px;
+height:64px;
+}
+#nao img{
+width:64px;
+height:64px;	
+}
+#naoa1,#naoa2,#naoa3,#naoa4,#naoa5,#naoa6,#naoa7,#naoa8,#naoa9,#naoa10,#naob1,#naob2,#naob3,#naob4,#naob5,#naob6,#naob7,#naob8,#naob9,#naob10,#naoc1,#naoc2,#naoc3,#naoc4,#naoc5,#naoc6,#naoc7,#naoc8,#naoc9,#naoc10,#naod1,#naod2,#naod3,#naod4,#naod5,#naod6,#naod7,#naod8,#naod9,#naod10,#naoe1,#naoe2,#naoe3,#naoe4,#naoe5,#naoe6,#naoe7,#naoe8,#naoe9,#naoe10,#naof1,#naof2,#naof3,#naof4,#naof5,#naof6,#naof7,#naof8,#naof9,#naof10,#naog1,#naog2,#naog3,#naog4,#naog5,#naog6,#naog7,#naog8,#naog9,#naog10,#naoh1,#naoh2,#naoh3,#naoh4,#naoh5,#naoh6,#naoh7,#naoh8,#naoh9,#naoh10,#naoi1,#naoi2,#naoi3,#naoi4,#naoi5,#naoi6,#naoi7,#naoi8,#naoi9,#naoi10,#naoj1,#naoj2,#naoj3,#naoj4,#naoj5,#naoj6,#naoj7,#naoj8,#naoj9,#naoj10{
+background-color:black;
+width:64px;
+height:64px;
+}
+#sim,#a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9,#a10,#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10,#c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8,#c9,#c10,#d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d9,#d10,#e1,#e2,#e3,#e4,#e5,#e6,#e7,#e8,#e9,#e10,#f1,#f2,#f3,#f4,#f5,#f6,#f7,#f8,#f9,#f10,#g1,#g2,#g3,#g4,#g5,#g6,#g7,#g8,#g9,#g10,#h1,#h2,#h3,#h4,#h5,#h6,#h7,#h8,#h9,#h10,#i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8,#i9,#i10,#j1,#j2,#j3,#j4,#j5,#j6,#j7,#j8,#j9,#j10{
+background-color:gray;
+width:64px;
+height:64px;
+}
+#sim img,#a1 img,#a2 img,#a3 img,#a4 img,#a5 img,#a6 img,#a7 img,#a8 img,#a9 img,#a10 img,#b1 img,#b2 img,#b3 img,#b4 img,#b5 img,#b6 img,#b7 img,#b8 img,#b9 img,#b10 img,#c1 img,#c2 img,#c3 img,#c4 img,#c5 img,#c6 img,#c7 img,#c8 img,#c9 img,#c10 img,#d1 img,#d2 img,#d3 img,#d4 img,#d5 img,#d6 img,#d7 img,#d8 img,#d9 img,#d10 img,#e1 img,#e2 img,#e3 img,#e4 img,#e5 img,#e6 img,#e7 img,#e8 img,#e9 img,#e10 img,#f1 img,#f2 img,#f3 img,#f4 img,#f5 img,#f6 img,#f7 img,#f8 img,#f9 img,#f10 img,#g1 img,#g2 img,#g3 img,#g4 img,#g5 img,#g6 img,#g7 img,#g8 img,#g9 img,#g10 img,#h1 img,#h2 img,#h3 img,#h4 img,#h5 img,#h6 img,#h7 img,#h8 img,#h9 img,#h10 img,#i1 img,#i2 img,#i3 img,#i4 img,#i5 img,#i6 img,#i7 img,#i8 img,#i9 img,#i10 img,#j1 img,#j2 img,#j3 img,#j4 img,#j5 img,#j6 img,#j7 img,#j8 img,#j9 img,#j10 img{
+width:64px;
+height:64px;
+}
+#win{
+background-color:green;
+width:64px;
+height:64px;
+}
+#spanwin,#span1,#span2,#span3{
+width:64px;
+height:64px;
+background-color:transparent;
+}
+#ini{
+background-color:red;
+width:64px;
+height:64px;
+}
+#tudo,#maze{
+width:640px;
+height:640px;
+border:5px solid gold;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+color:white;
+font-family: times new roman;
+font-size:30px;
+}
+#barra{
+background-color:black;
+width:640px;
+height:64px;
+color:white;
+font-size:25px;
+}
+#parede{
+background-color:orange;
+width:64px;
+height:64px;
+}
+#vida{
+width:64px;
+height:640px;
+border:5px solid gold;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+}
+#jogo{
+width:798px;
+height:650px;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+}
+#portaa{
+background-color:saddlebrown;
+width:64px;
+height:64px;
+}
+#portaa img{
+width:64px;
+height:64px;
+}
+#vazio{
+background-color:white;
+width:64px;
+height:64px;
+}
+#mundo{
+width:640px;
+height:640px;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+background-image:url(cenario/estrelas.jpg);
+}
+#lado{
+width:128px;
+height:256px;
+}
+#baixo{
+width:640px;
+height:64px;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+}
+#planeta{
+width:384px;
+height:384px;
+}
+#planeta img{
+border-radius:100%;
+}
+#espacobaixo{
+width:384px;
+height:64px;
+font-size:50px;
+color:red;
+}
+#blocao{
+width:640px;
+height:128px;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+}
+#pais{
+width:256px;
+height:128px;
+}
+#pais img{
+width:256px;
+height:128px;
+}
+#local{
+width:256px;
+height:384px;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+}
+#botaocont,#selecont,#selepais{
+width:320px;
+height:128px;
+font-size:50px;
+color:red;
+}
+#setaconvidativa{
+width:320px;
+height:128px;
+}
+#setaconvidativa img{
+width:320px;
+height:128px;
+}
+#cantinho{
+width:128px;
+height:64px;
+}
+#logtext{
+font-size:30px;
+color:white;	
+}
+#nick, #cont{
+height:40px;
+width:788px;
+border:5px solid gold;
+color:white;
+font-size:30px;
+font-family: Times new roman;
+}
+#mesa{
+background-color:saddlebrown;
+width:64px;
+height:64px;
+}
+#mesa img{
+width:64px;
+height:64px;
+}
+#pc,#pc1{
+background-color: blue;
+width:64px;
+height:64px;
+}
+#pcborda{
+background-color: silver;
+width:64px;
+height:64px;
+}
+#pc img{
+width:64px;
+height:64px;
+}
+#pc1 img {
+width:64px;
+height:64px;
+}
+#telapc{
+width:512px;
+height:384px;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+background-color:blue;
+color:white;
+font-size: 20px;
+}
+#telapc h1{
+font-size: 50px;
+color:white;
+}
+#lateralpc{
+width:32px;
+height:384px;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+}
+#pcbordap{
+background-color:silver;
+width:32px;
+height:32px;
+}
+#pcp{
+background-color: blue;
+width:32px;
+height:32px;
+}
+#simp{
+background-color:gray;
+width:32px;
+height:32px;
+}
+#lateralp{
+width:32px;
+height:128px;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+}
+#teclado{
+width:512px;
+height:128px;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+}
+#sim img,#a1 img,#a2 img,#a3 img,#a4 img,#a5 img,#a6 img,#a7 img,#a8 img,#a9 img,#a10 img,#b1 img,#b2 img,#b3 img,#b4 img,#b5 img,#b6 img,#b7 img,#b8 img,#b9 img,#b10 img,#c1 img,#c2 img,#c3 img,#c4 img,#c5 img,#c6 img,#c7 img,#c8 img,#c9 img,#c10 img,#d1 img,#d2 img,#d3 img,#d4 img,#d5 img,#d6 img,#d7 img,#d8 img,#d9 img,#d10 img,#e1 img,#e2 img,#e3 img,#e4 img,#e5 img,#e6 img,#e7 img,#e8 img,#e9 img,#e10 img,#f1 img,#f2 img,#f3 img,#f4 img,#f5 img,#f6 img,#f7 img,#f8 img,#f9 img,#f10 img,#g1 img,#g2 img,#g3 img,#g4 img,#g5 img,#g6 img,#g7 img,#g8 img,#g9 img,#g10 img,#h1 img,#h2 img,#h3 img,#h4 img,#h5 img,#h6 img,#h7 img,#h8 img,#h9 img,#h10 img,#i1 img,#i2 img,#i3 img,#i4 img,#i5 img,#i6 img,#i7 img,#i8 img,#i9 img,#i10 img,#j1 img,#j2 img,#j3 img,#j4 img,#j5 img,#j6 img,#j7 img,#j8 img,#j9 img,#j10 img{
+width:64px;
+height:64px;
+}
+#item1 img,#item2 img,#item3 img,#item4 img,#item5 img,#item6 img,#item7 img,#item8 img,#item9 img,#item10 img{
+width:64px;
+height:64px;
+}
+#maze h1{
+text-decoration: none;
+color: white;
+font-size: 25px;
+font-family: Times new Roman;
+}
+#blocotitulo{
+text-decoration: none;
+color: white;
+font-size: 50px;
+font-family: Times new Roman;
+width:640px;
+height:64px;
+}
+#fundobaralho,#pausa,#paus2,#paus3,#paus4,#paus5,#paus6,#paus7,#paus8,#paus9,#paus10,#pausj,#pausq,#pausk,#copasa,#copas2,#copas3,#copas4,#copas5,#copas6,#copas7,#copas8,#copas9,#copas10,#copasj,#copasq,#copask,#espadasa,#espadas2,#espadas3,#espadas4,#espadas5,#espadas6,#espadas7,#espadas8,#espadas9,#espadas10,#espadasj,#espadasq,#espadask,#ourosa,#ouros2,#ouros3,#ouros4,#ouros5,#ouros6,#ouros7,#ouros8,#ouros9,#ouros10,#ourosj,#ourosq,#ourosk,#joker,#joker2{
+background-color:black;
+width:64px;
+height:64px;
+}
+#pausa img,#paus2 img,#paus3 img,#paus4 img,#paus5 img,#paus6 img,#paus7 img,#paus8 img,#paus9 img,#paus10 img,#pausj img,#pausq img,#pausk img,#copasa img,#copas2 img,#copas3 img,#copas4 img,#copas5 img,#copas6 img,#copas7 img,#copas8 img,#copas9 img,#copas10 img,#copasj img,#copasq img,#copask img,#espadasa img,#espadas2 img,#espadas3 img,#espadas4 img,#espadas5 img,#espadas6 img,#espadas7 img,#espadas8 img,#espadas9 img,#espadas10 img,#espadasj img,#espadasq img,#espadask img,#ourosa img,#ouros2 img,#ouros3 img,#ouros4 img,#ouros5 img,#ouros6 img,#ouros7 img,#ouros8 img,#ouros9 img,#ouros10 img,#ourosj img,#ourosq img,#ourosk img,#joker img,#joker2 img{
+background-color:black;
+width:40px;
+height:62px;
+}
+#blocotitulomenor{
+text-decoration: none;
+color: white;
+font-size: 50px;
+font-family: Times new Roman;
+width:512px;
+height:64px;
+}
+#caixadetexto, #textodecaixa{
+width:200px;
+height:740px;
+border: 5px solid gold;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+color:white;
+font-family: times new roman;
+font-size:30px;
+}
+#jogomesmo{
+width: 798px;
+height: 740px;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+}
+#everything{
+width: 1218px;
+height: 750px;
+justify-content: space-around;
+display:flex;
+flex-wrap:wrap;
+}
+#defaultimage{
+width:128px;
+height:128px;
+}	
+#defaultimage img{
+width:128px;
+height:128px;
+}		
+	

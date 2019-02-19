@@ -1,0 +1,54 @@
+<?php 
+$sen = $_GET['se'];
+$email = $_GET['em'];
+$vidas = $_GET['vid'];
+$nick = $_GET['nick'];
+$conti0 = $_GET['conti0'];
+$conti1 = $_GET['conti1'];
+$conti2 = $_GET['conti2'];
+$conti3 = $_GET['conti3'];
+$conti4 = $_GET['conti4'];
+$inv1 = $_GET['inv1'];
+$inv2 = $_GET['inv2'];
+$inv3 = $_GET['inv3'];
+$inv4 = $_GET['inv4'];
+$inv5 = $_GET['inv5'];
+$inv6 = $_GET['inv6'];
+$inv7 = $_GET['inv7'];
+$inv8 = $_GET['inv8'];
+$inv9 = $_GET['inv9'];
+$inv10 = $_GET['inv10'];
+$paises0 = $_GET['paises0'];
+$paises1 = $_GET['paises1'];
+$paises2 = $_GET['paises2'];
+$paises3 = $_GET['paises3'];
+$paises4 = $_GET['paises4'];
+$paises5 = $_GET['paises5'];
+$paises6 = $_GET['paises6'];
+$paises7 = $_GET['paises7'];
+$paises8 = $_GET['paises8'];
+$paises9 = $_GET['paises9'];
+$paises10 = $_GET['paises10'];
+$paises11 = $_GET['paises11'];
+$paises12 = $_GET['paises12'];
+$paises13 = $_GET['paises13'];
+$paises14 = $_GET['paises14'];
+$paises15 = $_GET['paises15'];
+$paises16 = $_GET['paises16'];
+$paises17 = $_GET['paises17'];
+$paises18 = $_GET['paises18'];
+$paises19 = $_GET['paises19'];
+$paises20 = $_GET['paises20'];
+$paises21 = $_GET['paises21'];
+$paises22 = $_GET['paises22'];
+$paises23 = $_GET['paises23'];
+$paises24 = $_GET['paises24'];
+require("config.php");
+$conex = new PDO("mysql:host=$servidor;dbname=$basedados",
+$usuario,
+$senha);
+$conexao = $conex->prepare("INSERT INTO jogador VALUES(:nemail,:nsenha,:nnick,:nvidas,:ninv1,:ninv2,:ninv3,:ninv4,:ninv5,:ninv6,:ninv7,:ninv8,:ninv9,:ninv10,:nconti0,:nconti1,:nconti2,:nconti3,:nconti4,:npaises0,:npaises1,:npaises2,:npaises3,:npaises4,:npaises5,:npaises6,:npaises7,:npaises8,:npaises9,:npaises10,:npaises11,:npaises12,:npaises13,:npaises14,:npaises15,:npaises16,:npaises17,:npaises18,:npaises19,:npaises20,:npaises21,:npaises22,:npaises23,:npaises24);");
+$params = array(":nemail" => $email,":nnick" => $nick,":nsenha" => $sen,":nvidas" => $vidas,":nconti0" => $conti0,":nconti1" => $conti1,":nconti2" => $conti2,":nconti3" => $conti3,":nconti4" => $conti4,":ninv1" => $inv1,":ninv2" => $inv2,":ninv3" => $inv3,":ninv4" => $inv4,":ninv5" => $inv5,":ninv6" => $inv6,":ninv7" => $inv7,":ninv8" => $inv8,":ninv9" => $inv9,":ninv10" => $inv10,":npaises0" => $paises0,":npaises1" => $paises1,":npaises2" => $paises2,":npaises3" => $paises3,":npaises4" => $paises4,":npaises5" => $paises5,":npaises6" => $paises6,":npaises7" => $paises7,":npaises8" => $paises8,":npaises9" => $paises9,":npaises10" => $paises10,":npaises11" => $paises11,":npaises12" => $paises12,":npaises13" => $paises13,":npaises14" => $paises14,":npaises15" => $paises15,":npaises16" => $paises16,":npaises17" => $paises17,":npaises18" => $paises18,":npaises19" => $paises19,":npaises20" => $paises20,":npaises21" => $paises21,":npaises22" => $paises22,":npaises23" => $paises23,":npaises24" => $paises24);
+$conexao->execute($params);
+echo 'true';
+?>

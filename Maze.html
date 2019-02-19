@@ -1,0 +1,67 @@
+﻿<html lang="pt-br">
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<style>
+body{
+background-color:black;
+}
+</style>
+<script>
+var fasecont = 0;
+function loadDoc(fase) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    document.getElementById('maze').innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "demo.php?fase="+fase, true);
+  xhttp.send();
+}
+</script>
+</head>
+<body>
+<audio id="fasmus" controls preload="none" style="display:none">
+<source src="som/fase.mp3" type="audio/mp3">
+</audio>
+<audio id="enimus" controls preload="none" style="display:none">
+<source src="som/enigma.mp3" type="audio/mp3">
+</audio>
+<center>
+<div id="jogo">
+<div id="vida">
+<span id="barradevida">
+<div id="nao"><img src="" id="V10"></div>
+<div id="nao"><img src="" id="V9"></div>
+<div id="nao"><img src="" id="V8"></div>
+<div id="nao"><img src="" id="V7"></div>
+<div id="nao"><img src="" id="V6"></div>
+<div id="nao"><img src="" id="V5"></div>
+<div id="nao"><img src="" id="V4"></div>
+<div id="nao"><img src="" id="V3"></div>
+<div id="nao"><img src="" id="V2"></div>
+<div id="nao"><span id="dice"><img src="" id="V1"></span></div>
+</span>
+</div>
+<div id="tudo" id="maze">
+<center><font size="100px" color="red">The Game</font><br/>
+<input type="button" value="Iniciar" onclick="iniciar()">
+</div>
+<div id="vida">
+<span id="inventario">
+<span id="item10"><div id="nao"><img src="" id="imginv10"></div></span>
+<span id="item9"><div id="nao"><img src="" id="imginv9"></div></span>
+<span id="item8"><div id="nao"><img src="" id="imginv8"></div></span>
+<span id="item7"><div id="nao"><img src="" id="imginv7"></div></span>
+<span id="item6"><div id="nao"><img src="" id="imginv6"></div></span>
+<span id="item5"><div id="nao"><img src="" id="imginv5"></div></span>
+<span id="item4"><div id="nao"><img src="" id="imginv4"></div></span>
+<span id="item3"><div id="nao"><img src="" id="imginv3"></div></span>
+<span id="item2"><div id="nao"><img src="" id="imginv2"></div></span>
+<span id="item1"><div id="nao"><img src="" id="inv1"></div></span>
+</span></div>
+</div>
+<font color="white" size="64px"><span id="cont">0/50</span></font></center>
+</body>
+</html>

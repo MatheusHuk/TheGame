@@ -1,0 +1,135 @@
+else if(pais == 41){
+if(maisum == 1){
+if(papua == 1){
+document.getElementById('paises').innerHTML='<img src="paises/papua.png">';
+document.getElementById('espacobaixo').innerHTML='Papua nova Guiné';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,42)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,42)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/selepais.png" onclick="selepais(42)">';
+}else{
+document.getElementById('paises').innerHTML='<img src="cenario/paisbloq.png">';
+document.getElementById('espacobaixo').innerHTML='???(2)';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,42)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,42)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/contbloq.png">';
+}
+}else if(maisum == 0){
+if(australia == 1){
+document.getElementById('paises').innerHTML='<img src="paises/australia.png">';
+document.getElementById('espacobaixo').innerHTML='Austrália';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,45)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,45)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/selepais.png" onclick="selepais(45)">';
+}else{
+document.getElementById('paises').innerHTML='<img src="cenario/paisbloq.png">';
+document.getElementById('espacobaixo').innerHTML='???(5)';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,45)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,45)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/contbloq.png">';
+}
+}
+}else if(pais == 42){
+if(maisum == 1){
+if(fiji == 1){
+document.getElementById('paises').innerHTML='<img src="paises/fiji.jpg">';
+document.getElementById('espacobaixo').innerHTML='Fiji';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,43)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,43)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/selepais.png" onclick="selepais(43)">';
+}else{
+document.getElementById('paises').innerHTML='<img src="cenario/paisbloq.png">';
+document.getElementById('espacobaixo').innerHTML='???(3)';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,43)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,43)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/contbloq.png">';
+}
+}else if(maisum == 0){
+document.getElementById('paises').innerHTML='<img src="paises/micronesia.png">';
+document.getElementById('espacobaixo').innerHTML='Micronésia';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,41)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,41)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/selepais.png" onclick="selepais(41)">';
+}
+}else if(pais == 43){
+if(maisum == 1){
+if(zelandia == 1){
+document.getElementById('paises').innerHTML='<img src="paises/zelandia.png">';
+document.getElementById('espacobaixo').innerHTML='Nova Zelândia';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,44)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,44)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/selepais.png" onclick="selepais(44)">';
+}else{
+document.getElementById('paises').innerHTML='<img src="cenario/paisbloq.png">';
+document.getElementById('espacobaixo').innerHTML='???(4)';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,44)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,44)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/contbloq.png">';
+}
+}else if(maisum == 0){
+if(papua == 1){
+document.getElementById('paises').innerHTML='<img src="paises/papua.png">';
+document.getElementById('espacobaixo').innerHTML='Papua nova Guiné';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,42)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,42)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/selepais.png" onclick="selepais(42)">';
+}else{
+document.getElementById('paises').innerHTML='<img src="cenario/paisbloq.png">';
+document.getElementById('espacobaixo').innerHTML='???(2)';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,42)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,42)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/contbloq.png">';
+}
+}
+}else if(pais == 44){
+if(maisum == 1){
+if(australia == 1){
+document.getElementById('paises').innerHTML='<img src="paises/australia.png">';
+document.getElementById('espacobaixo').innerHTML='Austrália';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,45)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,45)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/selepais.png" onclick="selepais(45)">';
+}else{
+document.getElementById('paises').innerHTML='<img src="cenario/paisbloq.png">';
+document.getElementById('espacobaixo').innerHTML='???(5)';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,45)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,45)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/contbloq.png">';
+}
+}else if(maisum == 0){
+if(fiji == 1){
+document.getElementById('paises').innerHTML='<img src="paises/fiji.jpg">';
+document.getElementById('espacobaixo').innerHTML='Fiji';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,43)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,43)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/selepais.png" onclick="selepais(43)">';
+}else{
+document.getElementById('paises').innerHTML='<img src="cenario/paisbloq.png">';
+document.getElementById('espacobaixo').innerHTML='???(3)';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,43)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,43)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/contbloq.png">';
+}
+}
+}else if(pais == 45){
+if(maisum == 1){
+document.getElementById('paises').innerHTML='<img src="paises/micronesia.png">';
+document.getElementById('espacobaixo').innerHTML='Micronésia';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,41)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,41)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/selepais.png" onclick="selepais(41)">';
+}else if(maisum == 0){
+if(zelandia == 1){
+document.getElementById('paises').innerHTML='<img src="paises/zelandia.png">';
+document.getElementById('espacobaixo').innerHTML='Nova Zelândia';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,44)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,44)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/selepais.png" onclick="selepais(44)">';
+}else{
+document.getElementById('paises').innerHTML='<img src="cenario/paisbloq.png">';
+document.getElementById('espacobaixo').innerHTML='???(4)';
+document.getElementById('setadir').innerHTML='<img src="cenario/setadir.jpg" onclick="mudapais(1,44)">';
+document.getElementById('setaesq').innerHTML='<img src="cenario/setaesq.jpg" onclick="mudapais(0,44)">';
+document.getElementById('selepais').innerHTML='<img src="cenario/contbloq.png">';
+}
+}
+}

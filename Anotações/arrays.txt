@@ -1,0 +1,2 @@
+paises = [eua, canada, mexico, brasil, chile, reinounido, franca, alemanha, belgica, holanda, egito, congo, nigeria, camaroes, africadosul, russia, india, turquia, china, japao, micronesia, papua, fiji, zelandia, australia]
+conti = [americas, europa, africa, asia, oceania]
